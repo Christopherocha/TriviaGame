@@ -12,3 +12,37 @@
 #start-msg {
     margin: 30px;
 }
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#options {
+    display: none;
+}
+
+.option {
+    margin: 10px auto;
+    /*background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;*/
+    cursor: pointer;
+    max-width: 250px;
+}
+
+.option:hover{
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+#result{
+    display: none;
+}
+
+#timer{
+    height: 30px;
+}
